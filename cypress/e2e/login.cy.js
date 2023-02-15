@@ -6,7 +6,7 @@ describe("AQA internship login app tetsing", () => {
   before(() => {
     LoginPage.open("/");
     //Web-page assertion
-    cy.url().should("include", "qa-portal");
+    cy.url().should("include", data.URI_PATH_PART);
   });
   beforeEach(() => {
     LoginPage.open("/");

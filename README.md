@@ -4,15 +4,16 @@
 
 ## This repository's was created like a part of technical interview with Pecode:
 
-### For this task next methods and techniques being used
+### For this task next methods and techniques being used:
 
 1. Page Object Model
-2. Constants in a separate file
+2. Test-data in a separate file
 3. Mochawesome report (mochawesome-report dir)
 4. Jenkiinsfile with pipeline script to run tests
-5. Dockerfile
-6. Pre-commit hook to run Prettier for auto code formatting before commit
+5. Dockerfile to run in docker container
+6. Precommit hook to run Prettier/Eslint for auto code formatting before commit
 7. Github Actions yml file
+8. Prettier and Eslint
 
 ## Setup:
 

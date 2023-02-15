@@ -11,7 +11,7 @@
     "cypress-regression-pack": "npm run delete-results && npm run delete-mochawesome-report && npm test && npm run mochawesome-merge",
     "prepare": "husky install",
     "lint": "prettier --check .",
-    "format": "prettier --check ."
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "Oleksandr Kryvchenko",

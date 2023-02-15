@@ -1,5 +1,7 @@
 # Test Automation Framework with Cypress
 
+## Test statuse badge: ![](https://github.com/Kryvchenko/pecode-task-cypress/workflows/pecode-task-cypress/badge.svg)
+
 <a href="https://pecodesoftware.com/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/ut0ogcezapo03ualxivd" alt="pecode" width="256" height="256"/></a>
 
 ## This repository's was created like a part of technical interview with Pecode

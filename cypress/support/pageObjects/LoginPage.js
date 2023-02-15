@@ -11,9 +11,18 @@ class LoginPage {
   get helpBlock() {
     return cy.get(".help-block");
   }
+  /**
+   * Visit desired page
+   * @param  {String} url - url to open
+   */
   open(url) {
     cy.visit(url);
   }
+  /**
+   * Performs login through login form
+   * @param  {String} username - current username
+   * @param  {String} password - current password
+   */
   login(username, password) {
     this.userNameInput.type(username);
     this.userPasswordInput.type(password);

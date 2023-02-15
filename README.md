@@ -38,3 +38,11 @@
 
 1. Make sure that NodeJS Plugin is installed
 2. Java JDK PATH is added
+
+## Running job in Jenkins locally
+
+- create a new pipeline
+- pipeline script from SCM
+- SCM (Git)
+- change a path to Jenkins file `Jenkinsfile`
+- use the current repo URL

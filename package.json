@@ -5,6 +5,9 @@
   "scripts": {
     "test": "npx cypress run",
     "test-headed": "npx cypress open",
+    "triggerTest-chrome": "npx cypress run --browser chrome --headed",
+    "triggerTest-firefox": "npx cypress run --browser firefox",
+    "cypress-multi-browser": "npm run triggerTest-chrome & npm run triggerTest-firefox",
     "mochawesome-merge": "npx mochawesome-merge cypress/results/mochawesome/*.json > mochawesome.json && npx marge mochawesome.json",
     "delete-results": "rm -rf cypress/results/* || true",
     "delete-mochawesome-report": "rm -rf mochawesome-report/* || true",

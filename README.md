@@ -43,8 +43,8 @@
 
 ## Running job in Jenkins locally
 
-- create a new pipeline
-- pipeline script from SCM
+- Create a new pipeline
+- Pipeline script from SCM
 - SCM (Git)
-- change a path to Jenkins file `Jenkinsfile`
-- use the current repo URL
+- Change a path to Jenkins file `Jenkinsfile`
+- Use the current repo URL
